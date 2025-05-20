@@ -9,23 +9,80 @@
   </head>
   <body>
     <!-- Hover State Styling -->
+    <button
+      class="bg-black text-white p-4 m-6 rounded-lg hover:bg-pink-600 hover:text-black"
+    >
+      Button
+    </button>
 
     <!-- Focus State Styling -->
+     <button
+      class="bg-black text-white p-4 m-6 rounded-lg focus:bg-green-600  focus:text-black"
+    >
+      Button
+    </button>
 
     <!-- Active State Styling -->
+     <button
+      class="bg-black text-white p-4 m-6 rounded-lg active:bg-yellow-300  active:text-black"
+    >
+      Button
+    </button>
 
     <!-- Styling based on parent state -->
+     <a href="" class="group block max-w-xs mx-auto rounded-lg p-4 m-6 bg-white shadow-lg space-y-3 hover:bg-sky-300" >
+      <h2 class="group-hover:text-white">Card Title</h2>
+      <p class="group-hover:text-white">Card description</p>
+     </a>
 
     <!-- Pseudo Classes -->
+
+    <ul>
+      <li class="first:bg-red-200 even:bg-green-200 odd:bg-sky-300"> Item 1</li>
+      <li class="first:bg-red-200 even:bg-green-200 odd:bg-sky-300"> Item 2</li>
+      <li class="first:bg-red-200 even:bg-green-200 odd:bg-sky-300"> Item 3</li>
+      <li class="first:bg-red-200 even:bg-green-200 odd:bg-sky-300"> Item 4</li>
+      <li class="first:bg-red-200 even:bg-green-200 odd:bg-sky-300"> Item 5</li>
+      <li class="first:bg-red-200 even:bg-green-200 odd:bg-sky-300"> Item 6</li>
+    </ul>
 
     <!-- Appearance -->
     <!-- Use appearance-none to reset any browser specific styling on an element. This utility is often used when creating custom form components. -->
 
+    <select name="" id="" class="appearance-none p-4 m-4 bg-black text-white rounded-lg ">
+      <option value="yes">Yes</option>
+      <option value="no">No</option>
+    </select>
+
     <!-- Cursor -->
+
+    <button
+      class="bg-black text-white p-4 m-6 rounded-lg active:bg-yellow-300  active:text-black cursor-not-allowed"
+    >
+      Button
+    </button>
+
+    <button
+      class="bg-black text-white p-4 m-6 rounded-lg active:bg-yellow-300  active:text-black cursor-wait"
+    >
+      Button
+    </button>
+
+    <button
+      class="bg-black text-white p-4 m-6 rounded-lg active:bg-yellow-300  active:text-black cursor-progress"
+    >
+      Button
+    </button>
+
 
     <!-- Resize -->
 
     <!-- User Select -->
+
+    <p class="select-auto">Lorem ipsum dolor sit amet.</p>
+    <p class="select-text">Lorem ipsum dolor sit amet.</p>
+    <p class="select-all">Lorem ipsum dolor sit amet.</p>
+    <p class="select-none">Lorem ipsum dolor sit amet.</p>
 
     <!-- Smooth Scroll Example -->
   </body>
